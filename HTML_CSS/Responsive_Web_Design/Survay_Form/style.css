@@ -1,0 +1,40 @@
+body{
+    background-image: url(https://preview.redd.it/qunxfupt8p271.png?width=1080&crop=smart&auto=webp&s=f1ecfd86527847fbf1429d47a9568ed22e47cab0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 70%;
+}   
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+label{
+    display: block;
+}
+.radio-labels{
+    display: flex;
+    gap: 10px;
+}
+form {
+    background-color: #080808;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #37af65;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+}

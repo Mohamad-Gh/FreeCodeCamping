@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.label{
+    margin: 20px auto;
+    width: 500px;
+    padding: 10px;
+    border: 2px solid black;
+}
+header h1{
+    width: 100%;
+    margin: -4px -4px;
+    text-align: center;
+    font-size: 55px;
+    letter-spacing:1.5px
+}
+header p{
+    font-size: 20px;
+}
+p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+.divider{
+    border-bottom:1px solid #888989;
+}
+.bold{
+    font-weight: 800;
+}
+.right{
+    justify-content: right;
+}
+.large, .medium{
+    background-color: black;
+}
+.large{
+    height: 10px;
+}
+.medium{
+    height: 5px;
+}
+.left-container p{
+    margin: -5px -2px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.small-text{
+    font-size: 20px;
+}
+span{
+    text-align: right;
+}
+.indent{
+    margin-left:15px ;
+}
+.double-indent{
+    margin-left: 30px;
+}
+.calories-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.calories-info span {
+        margin: -7px -2px;
+        font-size: 2.4em;
+        font-weight: 700;
+}
+.daily-value{
+
+}
+.no-divider{
+
+}
+.note{
+
+}
+.daily-value p:not(.no-divider){
+    border-bottom: 1px solid #888989;
+}
